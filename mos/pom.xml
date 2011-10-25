@@ -174,11 +174,6 @@
       <artifactId>exo.social.component.common</artifactId>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>org.etk.model</groupId>
-      <artifactId>exo.model.config</artifactId>
-      <scope>provided</scope>
-    </dependency>
   </dependencies>
   <profiles>
     <profile>
