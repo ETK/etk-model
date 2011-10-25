@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/application
+END
+RelationshipPublisherTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/application/RelationshipPublisherTest.java
+END
+ProfileUpdatesPublisherTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/application/ProfileUpdatesPublisherTest.java
+END
+SpaceActivityPublisherTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/application/SpaceActivityPublisherTest.java
+END

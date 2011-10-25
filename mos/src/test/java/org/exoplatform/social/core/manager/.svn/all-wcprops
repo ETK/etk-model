@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/projects/!svn/ver/74900/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/manager
+END
+IdentityManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/projects/!svn/ver/74416/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/manager/IdentityManagerTest.java
+END
+ActivityManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/projects/!svn/ver/74374/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/manager/ActivityManagerTest.java
+END
+RelationshipManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/projects/!svn/ver/74900/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/manager/RelationshipManagerTest.java
+END

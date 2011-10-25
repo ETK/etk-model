@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/projects/!svn/ver/75241/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/storage/cache
+END
+CachedIdentityStorageTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/projects/!svn/ver/75241/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/storage/cache/CachedIdentityStorageTestCase.java
+END
+CachedActivityStorageTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/projects/!svn/ver/75241/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/storage/cache/CachedActivityStorageTestCase.java
+END
+CachedRelationshipStorageTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/projects/!svn/ver/71840/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/storage/cache/CachedRelationshipStorageTestCase.java
+END

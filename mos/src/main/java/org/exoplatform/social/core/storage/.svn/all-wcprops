@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/projects/!svn/ver/75330/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage
+END
+SpaceStorageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/SpaceStorageException.java
+END
+ActivityStorageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/ActivityStorageException.java
+END
+RelationshipStorageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/RelationshipStorageException.java
+END
+IdentityStorageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/IdentityStorageException.java
+END

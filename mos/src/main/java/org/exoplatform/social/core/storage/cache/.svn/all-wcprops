@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/projects/!svn/ver/75241/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache
+END
+SocialStorageCacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/SocialStorageCacheService.java
+END
+CacheType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/CacheType.java
+END
+CachedIdentityStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/projects/!svn/ver/75241/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/CachedIdentityStorage.java
+END
+CachedSpaceStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/projects/!svn/ver/71738/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/CachedSpaceStorage.java
+END
+CachedActivityStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/projects/!svn/ver/75241/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/CachedActivityStorage.java
+END
+FutureExoCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/FutureExoCache.java
+END
+CachedRelationshipStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/projects/!svn/ver/75093/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/CachedRelationshipStorage.java
+END
+FutureCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/FutureCache.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/projects/!svn/ver/75093/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/manager
+END
+IdentityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/manager/IdentityManager.java
+END
+IdentityManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/manager/IdentityManagerImpl.java
+END
+ActivityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/manager/ActivityManager.java
+END
+ActivityManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/manager/ActivityManagerImpl.java
+END
+RelationshipManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/projects/!svn/ver/75093/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/manager/RelationshipManager.java
+END
+RelationshipManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/projects/!svn/ver/75093/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/manager/RelationshipManagerImpl.java
+END

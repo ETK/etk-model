@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/projects/!svn/ver/75241/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data
+END
+IdentityData.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/IdentityData.java
+END
+ListSpacesData.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/ListSpacesData.java
+END
+SpaceData.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/projects/!svn/ver/71826/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/SpaceData.java
+END
+ActivityData.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/projects/!svn/ver/75241/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/ActivityData.java
+END
+IntegerData.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/IntegerData.java
+END
+ListIdentitiesData.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/ListIdentitiesData.java
+END
+SimpleCacheData.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/SimpleCacheData.java
+END
+AbstractListData.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/AbstractListData.java
+END
+ListCacheData.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/ListCacheData.java
+END
+ListActivitiesData.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/ListActivitiesData.java
+END
+ListRelationshipsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/ListRelationshipsData.java
+END
+ProfileData.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/ProfileData.java
+END
+RelationshipData.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/RelationshipData.java
+END
+CacheData.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/cache/model/data/CacheData.java
+END

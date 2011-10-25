@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/projects/!svn/ver/72410/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/processor
+END
+OSHtmlSanitizerProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/projects/!svn/ver/72410/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/processor/OSHtmlSanitizerProcessor.java
+END
+TemplateParamsProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/processor/TemplateParamsProcessor.java
+END
+MentionsProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/processor/MentionsProcessor.java
+END

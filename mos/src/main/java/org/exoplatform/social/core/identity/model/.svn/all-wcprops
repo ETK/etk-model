@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/projects/!svn/ver/74900/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/identity/model
+END
+Profile.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/projects/!svn/ver/74900/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/identity/model/Profile.java
+END
+PropertiesDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/identity/model/PropertiesDefinition.java
+END
+Identity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/identity/model/Identity.java
+END
+GlobalId.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/identity/model/GlobalId.java
+END

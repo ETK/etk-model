@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/profile
+END
+ProfileLifeCycle.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/profile/ProfileLifeCycle.java
+END
+ProfileLifeCycleEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/profile/ProfileLifeCycleEvent.java
+END
+ProfileListenerPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/profile/ProfileListenerPlugin.java
+END
+ProfileMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/profile/ProfileMapper.java
+END
+ProfileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/profile/ProfileFilter.java
+END
+ProfileListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/profile/ProfileListener.java
+END

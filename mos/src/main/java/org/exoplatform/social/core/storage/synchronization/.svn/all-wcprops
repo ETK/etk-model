@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/synchronization
+END
+SynchronizedSpaceStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/synchronization/SynchronizedSpaceStorage.java
+END
+SynchronizedActivityStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/synchronization/SynchronizedActivityStorage.java
+END
+SynchronizedRelationshipStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/synchronization/SynchronizedRelationshipStorage.java
+END
+SynchronizedIdentityStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/projects/!svn/ver/71684/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/storage/synchronization/SynchronizedIdentityStorage.java
+END

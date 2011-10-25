@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/identity/provider
+END
+SpaceIdentityProviderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/identity/provider/SpaceIdentityProviderTest.java
+END
+GroupIdentityProviderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/test/java/org/exoplatform/social/core/identity/provider/GroupIdentityProviderTest.java
+END

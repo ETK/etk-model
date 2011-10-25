@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/projects/!svn/ver/74341/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model
+END
+ExoSocialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model/ExoSocialActivity.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model/package-info.java
+END
+ExoSocialActivityImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/projects/!svn/ver/74341/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model/ExoSocialActivityImpl.java
+END
+ActivityStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model/ActivityStream.java
+END
+ActivityStreamImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model/ActivityStreamImpl.java
+END
+Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model/Activity.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/projects/!svn/ver/71377/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model/Util.java
+END
+MediaItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/projects/!svn/ver/73329/social/branches/1.2.x/component/core/src/main/java/org/exoplatform/social/core/activity/model/MediaItem.java
+END

@@ -56,8 +56,4 @@ By default, it will run only unit tests.
 To run integration tests you have two choices.
 
 
-## How to use this library
-
-Sample code:
-
     
