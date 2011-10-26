@@ -46,6 +46,7 @@
     <!-- **************** -->
     <!-- Plugins versions -->
     <!-- **************** -->
+    <org.slf4j.version>1.5.8</org.slf4j.version>
     <version.antrun.plugin>1.3</version.antrun.plugin>
     <version.assembly.plugin>2.2-beta-4</version.assembly.plugin>
     <version.buildhelper.plugin>1.4</version.buildhelper.plugin>
@@ -155,16 +156,7 @@
             <groupId>org.exoplatform.kernel</groupId>
             <artifactId>exo.kernel.commons</artifactId>
             <version>${org.exoplatform.kernel.version}</version>
-            <exclusions>
-               <exclusion>
-                  <groupId>org.slf4j</groupId>
-                  <artifactId>slf4j-log4j12</artifactId>
-               </exclusion>
-               <exclusion>
-                  <groupId>log4j</groupId>
-                  <artifactId>log4j</artifactId>
-               </exclusion>
-            </exclusions>
+            
          </dependency>
          <dependency>
             <groupId>org.exoplatform.kernel</groupId>
@@ -180,31 +172,12 @@
             <groupId>org.exoplatform.kernel</groupId>
             <artifactId>exo.kernel.component.common</artifactId>
             <version>${org.exoplatform.kernel.version}</version>
-            <exclusions>
-              <exclusion>
-                 <groupId>org.slf4j</groupId>
-                 <artifactId>slf4j-log4j12</artifactId>
-              </exclusion>
-              <exclusion>
-                 <groupId>log4j</groupId>
-                 <artifactId>log4j</artifactId>
-              </exclusion>
-            </exclusions>
          </dependency>
          <dependency>
             <groupId>org.exoplatform.kernel</groupId>
             <artifactId>exo.kernel.container</artifactId>
             <version>${org.exoplatform.kernel.version}</version>
-            <exclusions>
-             <exclusion>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-log4j12</artifactId>
-             </exclusion>
-             <exclusion>
-                <groupId>log4j</groupId>
-                <artifactId>log4j</artifactId>
-             </exclusion>
-            </exclusions>
+            
          </dependency>
          <dependency>
            <groupId>org.exoplatform.kernel</groupId>
@@ -227,19 +200,9 @@
             <version>${org.exoplatform.core.version}</version>
          </dependency>
          <dependency>
-            <groupId>org.exoplatform.core</groupId>
-            <artifactId>exo.core.component.database</artifactId>
-            <version>${org.exoplatform.core.version}</version>
-            <exclusions>
-             <exclusion>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-log4j12</artifactId>
-             </exclusion>
-             <exclusion>
-                <groupId>log4j</groupId>
-                <artifactId>log4j</artifactId>
-             </exclusion>
-            </exclusions>
+         <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>0.9.17</version>
          </dependency>
          <dependency>
             <groupId>org.exoplatform.core</groupId>
@@ -250,16 +213,7 @@
             <groupId>org.exoplatform.core</groupId>
             <artifactId>exo.core.component.organization.jdbc</artifactId>
             <version>${org.exoplatform.core.version}</version>
-            <exclusions>
-              <exclusion>
-                 <groupId>org.slf4j</groupId>
-                 <artifactId>slf4j-log4j12</artifactId>
-              </exclusion>
-              <exclusion>
-                 <groupId>log4j</groupId>
-                 <artifactId>log4j</artifactId>
-              </exclusion>
-            </exclusions>
+           
          </dependency>
          <dependency>
             <groupId>org.exoplatform.core</groupId>
@@ -282,19 +236,15 @@
             <version>${org.exoplatform.jcr.version}</version>
          </dependency>
          <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${org.slf4j.version}</version>
+         </dependency>
+         <dependency>
             <groupId>org.exoplatform.jcr</groupId>
             <artifactId>exo.jcr.component.ext</artifactId>
             <version>${org.exoplatform.jcr.version}</version>
-            <exclusions>
-             <exclusion>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-log4j12</artifactId>
-             </exclusion>
-             <exclusion>
-                <groupId>log4j</groupId>
-                <artifactId>log4j</artifactId>
-             </exclusion>
-            </exclusions>
+            
          </dependency>
          <dependency>
             <groupId>org.exoplatform.jcr</groupId>
@@ -566,25 +516,25 @@
           <version>3.2.0-PLF-SNAPSHOT</version>
         </dependency>
         <dependency>
-          <groupId>org.exoplatform.portal</groupId>
-          <artifactId>exo.portal.component.test.core</artifactId>
-          <version>3.2.0-PLF-SNAPSHOT</version>
+          <groupId>org.etk.model</groupId>
+          <artifactId>org.etk.model.test.core</artifactId>
+          <version>0.1-Beta1-SNAPSHOT</version>
         </dependency>
         <dependency>
-          <groupId>org.exoplatform.portal</groupId>
-          <artifactId>exo.portal.component.test.core</artifactId>
-          <version>3.2.0-PLF-SNAPSHOT</version>
+          <groupId>org.etk.model</groupId>
+          <artifactId>org.etk.model.test.core</artifactId>
+          <version>0.1-Beta1-SNAPSHOT</version>
           <type>test-jar</type>
         </dependency>
         <dependency>
-          <groupId>org.exoplatform.portal</groupId>
-          <artifactId>exo.portal.component.test.jcr</artifactId>
-          <version>3.2.0-PLF-SNAPSHOT</version>
+          <groupId>org.etk.model</groupId>
+          <artifactId>org.etk.model.test.jcr</artifactId>
+          <version>0.1-Beta1-SNAPSHOT</version>
         </dependency>
         <dependency>
-          <groupId>org.exoplatform.portal</groupId>
-          <artifactId>exo.portal.component.test.jcr</artifactId>
-          <version>3.2.0-PLF-SNAPSHOT</version>
+          <groupId>org.etk.model</groupId>
+          <artifactId>org.etk.model.test.jcr</artifactId>
+          <version>0.1-Beta1-SNAPSHOT</version>
           <type>test-jar</type>
         </dependency>
         <dependency>
@@ -642,12 +592,7 @@
            <artifactId>exo.social.component.common</artifactId>
            <version>1.2.4-SNAPSHOT</version>
          </dependency>
-         <dependency>
-           <groupId>org.etk.model</groupId>
-           <artifactId>exo.model.config</artifactId>
-           <version>1.2.4-SNAPSHOT</version>
-         </dependency>
-
+       
          <!-- Picketlink -->
          <dependency>
             <groupId>org.picketlink.idm</groupId>
@@ -658,16 +603,7 @@
             <groupId>org.picketlink.idm</groupId>
             <artifactId>picketlink-idm-hibernate</artifactId>
             <version>${org.picketlink.idm}</version>
-            <exclusions>
-              <exclusion>
-                 <groupId>org.slf4j</groupId>
-                 <artifactId>slf4j-log4j12</artifactId>
-              </exclusion>
-              <exclusion>
-                 <groupId>log4j</groupId>
-                 <artifactId>log4j</artifactId>
-              </exclusion>
-            </exclusions>
+            
          </dependency>
          <dependency>
             <groupId>org.picketlink.idm</groupId>
@@ -851,10 +787,9 @@
            <jdk>1.6</jdk>
         </activation>
           <modules>
-            <module>config</module>
+            <module>test</module>
 	    <module>mop</module>
 	    <module>mos</module>
-            <module>test</module>
 	  </modules>
      </profile>
      

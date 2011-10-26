@@ -139,14 +139,14 @@
     </dependency>
 
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
-      <artifactId>exo.portal.component.test.core</artifactId>
+      <groupId>org.etk.model</groupId>
+      <artifactId>org.etk.model.test.core</artifactId>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
-      <artifactId>exo.portal.component.test.jcr</artifactId>
+      <groupId>org.etk.model</groupId>
+      <artifactId>org.etk.model.test.jcr</artifactId>
       <scope>test</scope>
     </dependency>
 
@@ -173,6 +173,11 @@
       <groupId>org.exoplatform.social</groupId>
       <artifactId>exo.social.component.common</artifactId>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <scope>provided</scope>
     </dependency>
   </dependencies>
   <profiles>

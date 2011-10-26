@@ -76,14 +76,14 @@
     </dependency>
 
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
-      <artifactId>exo.portal.component.test.core</artifactId>
+      <groupId>org.etk.model</groupId>
+      <artifactId>org.etk.model.test.core</artifactId>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
-      <artifactId>exo.portal.component.test.jcr</artifactId>
+      <groupId>org.etk.model</groupId>
+      <artifactId>org.etk.model.test.jcr</artifactId>
       <scope>test</scope>
     </dependency>
 

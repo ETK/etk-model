@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <!--
   ~ Copyright (C) 2009 eXo Platform SAS.
   ~
@@ -17,23 +18,12 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.exoplaform.org/xml/ns/kernel_1_2.xsd http://www.exoplaform.org/xml/ns/kernel_1_2.xsd"
+  xmlns="http://www.exoplaform.org/xml/ns/kernel_1_2.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.etk</groupId>
-    <artifactId>org.etk.parent</artifactId>
-    <version>0.1-Beta1-SNAPSHOT</version>
-  </parent>
+  <component>
+    <type>org.exoplatform.component.test.CustomService</type>
+  </component>
 
-   <groupId>org.etk.model</groupId>
-   <artifactId>org.etk.model.test</artifactId>
-   <packaging>pom</packaging>
-   <name>Model Test Component</name>
-
-   <modules>
-      <module>core</module>
-      <module>jcr</module>
-   </modules>
-
-</project>
+</configuration>
