@@ -48,6 +48,7 @@
       <set-method>addPlugin</set-method>
       <type>org.exoplatform.services.naming.BindReferencePlugin</type>
       <init-params>
+         
         <value-param>
           <name>bind-name</name>
           <value>jdbcexo</value>
@@ -60,7 +61,7 @@
           <name>factory</name>
           <value>org.apache.commons.dbcp.BasicDataSourceFactory</value>
         </value-param>
-        <properties-param profiles="hsqldb">
+        <properties-param>
           <name>ref-addresses</name>
           <description>ref-addresses</description>
           <property name="driverClassName" value="org.hsqldb.jdbcDriver"/>
@@ -68,6 +69,7 @@
           <property name="username" value="sa"/>
           <property name="password" value=""/>
         </properties-param>
+
       </init-params>
     </component-plugin>
   </external-component-plugins>
