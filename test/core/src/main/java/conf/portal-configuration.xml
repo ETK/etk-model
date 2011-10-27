@@ -48,7 +48,6 @@
       <set-method>addPlugin</set-method>
       <type>org.exoplatform.services.naming.BindReferencePlugin</type>
       <init-params>
-         
         <value-param>
           <name>bind-name</name>
           <value>jdbcexo</value>
@@ -69,7 +68,6 @@
           <property name="username" value="sa"/>
           <property name="password" value=""/>
         </properties-param>
-
       </init-params>
     </component-plugin>
   </external-component-plugins>
