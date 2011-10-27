@@ -19,30 +19,7 @@
 
 package org.exoplatform.portal.pom.data;
 
-import javassist.runtime.Desc;
-
-import org.exoplatform.portal.config.NoSuchDataException;
-import org.exoplatform.portal.config.StaleModelException;
-import org.exoplatform.portal.config.UserACL;
-import org.exoplatform.portal.config.model.ApplicationState;
-import org.exoplatform.portal.config.model.ApplicationType;
-import org.exoplatform.portal.config.model.CloneApplicationState;
-import org.exoplatform.portal.mop.*;
-import org.exoplatform.portal.config.model.PersistentApplicationState;
-import org.exoplatform.portal.config.model.PortalConfig;
-import org.exoplatform.portal.config.model.TransientApplicationState;
-import org.exoplatform.portal.pom.config.POMSession;
-import org.exoplatform.portal.pom.config.Utils;
-import org.exoplatform.portal.pom.spi.portlet.Portlet;
-import org.gatein.mop.api.Attributes;
-import org.gatein.mop.api.content.ContentType;
-import org.gatein.mop.api.content.Customization;
-import org.gatein.mop.api.workspace.*;
-import org.gatein.mop.api.workspace.ui.UIBody;
-import org.gatein.mop.api.workspace.ui.UIComponent;
-import org.gatein.mop.api.workspace.ui.UIContainer;
-import org.gatein.mop.api.workspace.ui.UIWindow;
-import org.gatein.mop.core.util.Tools;
+import static org.exoplatform.portal.pom.config.Utils.split;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -56,7 +33,32 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
-import static org.exoplatform.portal.pom.config.Utils.split;
+import org.exoplatform.portal.config.NoSuchDataException;
+import org.exoplatform.portal.config.StaleModelException;
+import org.exoplatform.portal.config.UserACL;
+import org.exoplatform.portal.config.model.ApplicationState;
+import org.exoplatform.portal.config.model.ApplicationType;
+import org.exoplatform.portal.config.model.CloneApplicationState;
+import org.exoplatform.portal.config.model.PersistentApplicationState;
+import org.exoplatform.portal.config.model.PortalConfig;
+import org.exoplatform.portal.config.model.TransientApplicationState;
+import org.exoplatform.portal.mop.Described;
+import org.exoplatform.portal.mop.ProtectedResource;
+import org.exoplatform.portal.pom.config.POMSession;
+import org.exoplatform.portal.pom.config.Utils;
+import org.exoplatform.portal.pom.spi.portlet.Portlet;
+import org.gatein.mop.api.Attributes;
+import org.gatein.mop.api.content.ContentType;
+import org.gatein.mop.api.content.Customization;
+import org.gatein.mop.api.workspace.ObjectType;
+import org.gatein.mop.api.workspace.Site;
+import org.gatein.mop.api.workspace.Templatized;
+import org.gatein.mop.api.workspace.WorkspaceObject;
+import org.gatein.mop.api.workspace.ui.UIBody;
+import org.gatein.mop.api.workspace.ui.UIComponent;
+import org.gatein.mop.api.workspace.ui.UIContainer;
+import org.gatein.mop.api.workspace.ui.UIWindow;
+import org.gatein.mop.core.util.Tools;
 
 /**
  * @author <a href="mailto:julien.viet@exoplatform.com">Julien Viet</a>

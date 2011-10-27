@@ -56,7 +56,7 @@
     <version.checkstyle.plugin>2.4</version.checkstyle.plugin>
     <version.clover2.plugin>2.6.3</version.clover2.plugin>
     <version.cobertura.plugin>2.3</version.cobertura.plugin>
-    <version.compiler.plugin>2.0.2</version.compiler.plugin>
+    <version.compiler.plugin>2.1</version.compiler.plugin>
     <version.dependency.plugin>2.1</version.dependency.plugin>
     <version.deploy.plugin>2.4</version.deploy.plugin>
     <version.eclipse.plugin>2.7</version.eclipse.plugin>
@@ -204,6 +204,11 @@
          <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>0.9.17</version>
+         </dependency>
+         <dependency>
+            <groupId>org.exoplatform.core</groupId>
+            <artifactId>exo.core.component.database</artifactId>
+            <version>${org.exoplatform.core.version}</version>
          </dependency>
          <dependency>
             <groupId>org.exoplatform.core</groupId>
@@ -435,14 +440,14 @@
           <version>3.2.0-PLF-SNAPSHOT</version>
         </dependency>
         <dependency>
-          <groupId>org.exoplatform.portal</groupId>
-          <artifactId>exo.portal.component.portal</artifactId>
-          <version>3.2.0-PLF-SNAPSHOT</version>
+          <groupId>org.etk.model</groupId>
+          <artifactId>org.etk.model.mop</artifactId>
+          <version>0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-          <groupId>org.exoplatform.portal</groupId>
-          <artifactId>exo.portal.component.portal</artifactId>
-          <version>3.2.0-PLF-SNAPSHOT</version>
+          <groupId>org.etk.model</groupId>
+          <artifactId>org.etk.model.mop</artifactId>
+          <version>0.1-SNAPSHOT</version>
           <type>test-jar</type>
         </dependency>
         <dependency>
@@ -451,14 +456,14 @@
           <version>3.2.0-PLF-SNAPSHOT</version>
         </dependency>
         <dependency>
-          <groupId>org.exoplatform.portal</groupId>
-          <artifactId>exo.portal.component.identity</artifactId>
-          <version>3.2.0-PLF-SNAPSHOT</version>
+          <groupId>org.etk.model</groupId>
+          <artifactId>org.etk.model.identity</artifactId>
+          <version>0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-          <groupId>org.exoplatform.portal</groupId>
-          <artifactId>exo.portal.component.identity</artifactId>
-          <version>3.2.0-PLF-SNAPSHOT</version>
+         <groupId>org.etk.model</groupId>
+          <artifactId>org.etk.model.identity</artifactId>
+          <version>0.1-SNAPSHOT</version>
           <type>test-jar</type>
         </dependency>
         <dependency>
@@ -667,7 +672,7 @@
   </dependencies>
 
   <build>
-    <resources>
+     <resources>
       <resource>
         <directory>src/main/java</directory>
         <includes>
@@ -691,92 +696,155 @@
       </testResource>
     </testResources>
     <pluginManagement>
+      <!-- All plugins versions have to be set -->
+      <!-- Plugins are sorted by shortname : clean, deploy, ... -->
       <plugins>
         <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>exec-maven-plugin</artifactId>
-          <version>${version.exec.plugin}</version>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>2.3</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>		
+          <artifactId>maven-checkstyle-plugin</artifactId>		
+          <version>2.4</version>		
+        </plugin>		
+        <plugin>		
+          <groupId>com.atlassian.maven.plugins</groupId>		
+          <artifactId>maven-clover2-plugin</artifactId>		
+          <version>2.6.3</version>		
+        </plugin>		
+        <plugin>		
+          <groupId>org.codehaus.mojo</groupId>		
+          <artifactId>cobertura-maven-plugin</artifactId>		
+          <version>2.3</version>		
+        </plugin>		
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+           <version>2.3.2</version>
+            <configuration>
+              <source>1.6</source>
+              <target>1.6</target>
+            </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>2.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-eclipse-plugin</artifactId>
+          <version>2.8</version>
+          <configuration>
+            <downloadSources>true</downloadSources>
+          </configuration>
+        </plugin>     
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <version>1.0-beta-1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>		
+          <artifactId>findbugs-maven-plugin</artifactId>		
+          <version>2.3</version>		
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.3</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>2.3</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <!-- Too many issues with 2.6 versions -->
+          <version>2.5</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>		
+          <artifactId>maven-pmd-plugin</artifactId>		
+          <version>2.4</version>		
+        </plugin>		
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.4.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>2.0.1</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
-          <artifactId>build-helper-maven-plugin</artifactId>
-          <version>1.4</version>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>1.0-beta-1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>2.1.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>${version.surefire.plugin}</version>
-          <configuration>
-            <argLine>-Xms1024m -Xmx1024m</argLine>
-            <systemProperties>
-              <property>
-                <name>org.apache.commons.logging.Log</name>
-                <value>org.apache.commons.logging.impl.SimpleLog</value>
-              </property>
-              <property>
-                <name>org.apache.commons.logging.simplelog.defaultlog</name>
-                <value>info</value>
-              </property>
-              <property>
-                <name>org.apache.commons.logging.simplelog.log.[eXo]</name>
-                <value>debug</value>
-              </property>
-              <property>
-                <name>org.apache.commons.logging.simplelog.log.net.hibernate</name>
-                <value>warn</value>
-              </property>
-              <property>
-                <name>java.naming.factory.initial</name>
-                <value>org.exoplatform.services.naming.SimpleContextFactory</value>
-              </property>
-            </systemProperties>
-          </configuration>
+          <version>2.4.3</version>
         </plugin>
-        <!--
-          we shouldn't need to specify this plugin here, but the maven
-          compiler plugin is not accepting its memory option properties. This
-          should be removed when we can just set the compiler properties
-        -->
-        <!--
-          we need to specify this as building GateIn can cause memory
-          problems with some JDKs (ie IBM)
-        -->
         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>${version.compiler.plugin}</version>
-          <configuration>
-            <fork>true</fork>
-            <meminitial>256m</meminitial>
-            <maxmem>1024m</maxmem>
-          </configuration>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>1.1</version>
         </plugin>
       </plugins>
     </pluginManagement>
+
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <version>${version.antrun.plugin}</version>
-        <executions>
-          <execution>
-            <id>compile</id>
-            <phase>compile</phase>
-            <configuration>
-              <tasks>
-                <copy failonerror="false" todir="${project.build.directory}/${project.build.finalName}/WEB-INF/classes">
-                  <fileset dir="${basedir}/src/main/webapp/WEB-INF/classes">
-                    <include name="**/*_en.properties" />
-                  </fileset>
-                  <globmapper from="*_en.properties" to="*.properties" />
-                </copy>
-              </tasks>
-            </configuration>
-            <goals>
-              <goal>run</goal>
-            </goals>
-          </execution>
-        </executions>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <!-- export DYLD_LIBRARY_PATH=/Users/thanh_vucong/java/jprofiler5/bin/macos -->
+          <!--<argLine>-agentlib:jprofilerti=port=8849 -Xbootclasspath/a:/Users/thanh_vucong/java/jprofiler5/bin/agent.jar</argLine>-->
+          <systemProperties>
+            <property>
+              <name>com.arjuna.ats.arjuna.objectstore.objectStoreDir</name>
+              <value>${project.build.directory}</value>
+            </property>
+            <property>
+              <name>log.output.path</name>
+              <value>${project.build.directory}</value>
+            </property>
+          </systemProperties>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <mavenExecutorId>forked-path</mavenExecutorId>
+        </configuration>
       </plugin>
     </plugins>
   </build>
@@ -787,11 +855,12 @@
         <activation>
            <jdk>1.6</jdk>
         </activation>
-          <modules>
-            <module>test</module>
-	    <module>mop</module>
-	    <module>mos</module>
-	  </modules>
+        <modules>
+           <module>test</module>
+           <module>identity</module>
+           <module>mop</module>
+           <module>mos</module>
+        </modules>
      </profile>
      
     <profile>

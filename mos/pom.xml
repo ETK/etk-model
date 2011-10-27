@@ -103,9 +103,16 @@
     </dependency>
 
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
-      <artifactId>exo.portal.component.portal</artifactId>
+      <groupId>org.etk.model</groupId>
+      <artifactId>org.etk.model.identity</artifactId>
+      <version>0.1-SNAPSHOT</version>
       <scope>provided</scope>
+    </dependency>
+   <dependency>
+      <groupId>org.etk.model</groupId>
+      <artifactId>org.etk.model.identity</artifactId>
+      <version>0.1-SNAPSHOT</version>
+      <type>test-jar</type>
     </dependency>
 
     <dependency>
@@ -150,16 +157,12 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
-      <groupId>org.exoplatform.portal</groupId>
-      <artifactId>exo.portal.component.identity</artifactId>
-      <type>test-jar</type>
-      <scope>test</scope>
-    </dependency>
+  
 
     <dependency>
-      <groupId>org.exoplatform.portal</groupId>
-      <artifactId>exo.portal.component.portal</artifactId>
+      <groupId>org.etk.model</groupId>
+      <artifactId>org.etk.model.mop</artifactId>
+      <version>0.1-SNAPSHOT</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
