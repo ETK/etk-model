@@ -132,8 +132,16 @@
       <!-- Build settings -->
       <!-- ************** -->
 
-      <!-- maven-enforcer-plugin -->
-      <jdk.min.version>1.6</jdk.min.version>
+      <!-- Cross plugins settings -->
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+      <!-- maven-compiler-plugin -->
+      <maven.compiler.target>1.6</maven.compiler.target>
+      <maven.compiler.source>1.6</maven.compiler.source>
+
+    <!-- maven-surefire-plugin -->
+    <!--<argLine>${env.MAVEN_OPTS}</argLine>-->
+    <argLine>-Xshare:auto -Xms128m -Xmx1024m -XX:MaxPermSize=1024M</argLine>
       
       <!-- Required for Maven 3 to deploy in webdav -->
       <version.wagon-webdav-jackrabbit>1.0-beta-7</version.wagon-webdav-jackrabbit>
@@ -681,6 +689,9 @@
           <include>**/*.xsd</include>
         </includes>
       </resource>
+      <resource>
+        <directory>src/main/resources</directory>
+      </resource>
     </resources>
     <testResources>
       <testResource>
@@ -722,11 +733,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-           <version>2.3.2</version>
-            <configuration>
-              <source>1.6</source>
-              <target>1.6</target>
-            </configuration>
+          <version>2.3.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
